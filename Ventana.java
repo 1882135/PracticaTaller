@@ -38,6 +38,13 @@ public class Ventana {
         this.abierta = false;
     }
 
-  
+    public void romper() {
+        this.rota = true;
+        this.abierta = false; // Cierra la ventana si se rompe
+    }
+
+    public void reparar() {
+        this.rota = false;
+    }
   
 }
